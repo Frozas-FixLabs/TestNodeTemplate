@@ -4,6 +4,9 @@
   "description": "Template de uso para el equipo de FixLabs",
   "main": "App.js",
   "scripts": {
+    "start": "node App.js",
+    "pm2": "pm2 start App.js",
+    "dev":"nodemon App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francisco Rozas",
