@@ -1,0 +1,1594 @@
+{
+    "_id": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+    "code": "1261278792694",
+    "origin": "mercadolibre",
+    "net": 149990,
+    "tax": 0,
+    "gross": 149990,
+    "tags": "",
+    "status": "created",
+    "verificationStatus": "verified",
+    "paymentStatus": "completed",
+    "deliveryStatus": "completed",
+    "comment": "",
+    "soldAt": "2023-12-08T13:31:48.000Z",
+    "isMultiwarehouse": "disabled",
+    "courierName": "MEL Distribution",
+    "shippingMode": "cross_docking",
+    "createdAt": "2024-07-18T19T07:43:32.000Z",
+    "updatedAt": "2024-10-18T07:44:07.000Z",
+    "CreatedById": null,
+    "UpdatedById": null,
+    "OwnerId": null,
+    "WarehouseId": "5e552ebb-ed92-46b2-96c2-9440336f0a3c",
+    "MarketplaceConnectionId": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+    "ProductPriceListId": null,
+    "CurrencyId": "0060ca8d-d4d0-4d86-b555-fb22b5bf5cdc",
+    "ClientId": "90ee66d7-c182-4a1b-a165-c4dfe036f832",
+    "ShippingAddressId": null,
+    "BillingAddressId": null,
+    "DeliveryTypeId": "9474c2a8-6a0c-11e6-9651-70928b05753b",
+    "ScreeningStatusId": null,
+    "MarketplaceScreeningStatusId": null,
+    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+    "Owner": null,
+    "Warehouse": {
+        "_id": "5e552ebb-ed92-46b2-96c2-9440336f0a3c",
+        "name": "Bodega Online",
+        "code": null,
+        "address": null,
+        "description": null,
+        "type": "warehouse",
+        "phoneAreaCode": null,
+        "phoneNumber": null,
+        "latitude": 0,
+        "longitude": 0,
+        "openHours": null,
+        "tags": null,
+        "position": 1,
+        "status": "created",
+        "createdAt": "2024-07-18T19:37:58.000Z",
+        "updatedAt": "2024-07-18T19:41:43.000Z",
+        "CreatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+        "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+        "LocationId": null,
+        "TimezoneId": null,
+        "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+        "SalesGroupId": null
+    },
+    "MarketplaceConnection": {
+        "_name": "Mercado Libre - Páginas Oficiales",
+        "_id": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+        "provider": "mercadolibre",
+        "name": "Mercado Libre - Páginas Oficiales"
+    },
+    "DeliveryType": {
+        "_id": "9474c2a8-6a0c-11e6-9651-70928b05753b",
+        "name": "DELIVERY_TYPES.Delivery.Name",
+        "code": "_delivery_type_delivery",
+        "description": "DELIVERY_TYPES.Delivery.Description",
+        "position": 1,
+        "tags": null,
+        "status": "created",
+        "createdAt": "2016-08-24T17:13:15.000Z",
+        "updatedAt": "2016-08-24T17:13:15.000Z"
+    },
+    "Merchant": {
+        "_id": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+        "name": "Pacific Sport Colombia Ltda",
+        "businessName": null,
+        "description": null,
+        "code": null,
+        "address": null,
+        "zipCode": null,
+        "activity": null,
+        "taxId": null,
+        "email": null,
+        "phoneNumber": "3102001788",
+        "city": null,
+        "status": "created",
+        "createdAt": "2022-08-12T21:37:58.000Z",
+        "updatedAt": "2022-08-12T21:37:58.000Z",
+        "MerchantActivityId": "5c0ec06c-8b31-4a6c-80fc-903d6d56d0da",
+        "LocationId": "4cd57508-a926-4dd0-bfe5-336e805be307",
+        "TimezoneId": "36815726-6719-4f92-9c4d-3c68b5821300",
+        "MerchantAccountId": "a0d936d0-b17f-49f0-ad2e-ff557e9a20d9"
+    },
+    "Currency": {
+        "_id": "0060ca8d-d4d0-4d86-b555-fb22b5bf5cdc",
+        "status": "created",
+        "createdAt": "2019-05-30T16:52:54.000Z",
+        "updatedAt": "2019-05-30T16:52:54.000Z",
+        "CreatedById": "0a89b41d-26c2-4c4d-a6fc-df32bd5a9bd2",
+        "UpdatedById": "0a89b41d-26c2-4c4d-a6fc-df32bd5a9bd2",
+        "PlatformCurrencyId": "a93f4ed0-edfb-458e-a084-eddc33fc5078",
+        "MerchantId": "a5807094-087d-4b68-a66a-b501c19e4c47",
+        "PlatformCurrency": {
+            "_id": "a93f4ed0-edfb-458e-a084-eddc33fc5078",
+            "symbol": "$",
+            "name": "CURRENCIES.Colombian_peso.Name",
+            "code": "COP",
+            "decimalPlaces": 0,
+            "position": 4,
+            "description": "NULL",
+            "status": "created",
+            "createdAt": "2017-07-14T22:09:44.000Z",
+            "updatedAt": "2017-07-14T22:09:44.000Z"
+        }
+    },
+    "Client": {
+        "fullName": "Izabel Lopez sanches",
+        "_id": "90ee66d7-c182-4a1b-a165-c4dfe036f832",
+        "name": "Izabel",
+        "lastName": "Lopez sanches",
+        "activity": "",
+        "contactName": null,
+        "comune": "",
+        "city": "",
+        "documentType": "CC",
+        "taxId": "30078887",
+        "birthday": null,
+        "code": "LOPEZIZABEL20231207220158",
+        "email": null,
+        "phoneNumber": "XXXXXXX",
+        "comment": "",
+        "type": "person",
+        "tags": null,
+        "status": "created",
+        "sensitiveDataEncryptVersion": null,
+        "sensitiveDataStatus": "visible",
+        "createdAt": "2023-12-09T15:47:32.000Z",
+        "updatedAt": "2023-12-09T15:47:32.000Z",
+        "CreatedById": null,
+        "UpdatedById": null,
+        "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+        "BillingAddresses": [
+            {
+                "_id": "9be62b56-69c2-44dd-8b4f-8bd9f1f9449c",
+                "name": "Maria Izabel Lopez Zanches Lopez Zanches",
+                "address_1": null,
+                "address_2": null,
+                "description": null,
+                "indications": null,
+                "receiverName": null,
+                "zipCode": null,
+                "city": null,
+                "country": null,
+                "street": null,
+                "number": null,
+                "neighborhood": null,
+                "position": 0,
+                "state": null,
+                "status": "created",
+                "sensitiveDataEncryptVersion": null,
+                "sensitiveDataStatus": "visible",
+                "importance": "principal",
+                "createdAt": "2023-12-09T15:47:34.000Z",
+                "updatedAt": "2024-10-18T07:44:07.000Z",
+                "CreatedById": null,
+                "UpdatedById": null,
+                "ClientId": "90ee66d7-c182-4a1b-a165-c4dfe036f832",
+                "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86"
+            }
+        ],
+        "ClientLink": {
+            "_id": "1ea04829-88cb-4a6b-8f38-742a6ab8d2ef",
+            "externalId": "1583865168",
+            "tags": "",
+            "externalContent": "{\"additional_info\":[{\"type\":\"SITE_ID\",\"value\":\"MCO\"},{\"type\":\"FIRST_NAME\",\"value\":\"Maria Izabel Lopez Zanches\"},{\"type\":\"LAST_NAME\",\"value\":\"Lopez Zanches\"},{\"type\":\"DOC_TYPE\",\"value\":\"CC\"},{\"type\":\"DOC_NUMBER\",\"value\":\"30078887\"},{\"type\":\"COUNTRY_ID\",\"value\":\"CO\"}],\"doc_number\":\"30078887\",\"doc_type\":\"CC\"}",
+            "synchronizationStatus": "not-synchronized",
+            "status": "created",
+            "sensitiveDataEncryptVersion": null,
+            "sensitiveDataStatus": "visible",
+            "createdAt": "2023-12-09T15:47:32.000Z",
+            "updatedAt": "2024-10-18T07:44:06.000Z",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "MarketplaceConnectionId": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+            "ClientId": "90ee66d7-c182-4a1b-a165-c4dfe036f832"
+        }
+    },
+    "ShippingAddress": null,
+    "BillingAddress": [
+        {
+            "_id": "9be62b56-69c2-44dd-8b4f-8bd9f1f9449c",
+            "name": "Maria Izabel Lopez Zanches Lopez Zanches",
+            "address_1": null,
+            "address_2": null,
+            "description": null,
+            "indications": null,
+            "receiverName": null,
+            "zipCode": null,
+            "city": null,
+            "country": null,
+            "street": null,
+            "number": null,
+            "neighborhood": null,
+            "position": 0,
+            "state": null,
+            "status": "created",
+            "sensitiveDataEncryptVersion": null,
+            "sensitiveDataStatus": "visible",
+            "importance": "principal",
+            "createdAt": "2023-12-09T15:47:34.000Z",
+            "updatedAt": "2024-10-18T07:44:07.000Z",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "ClientId": "90ee66d7-c182-4a1b-a165-c4dfe036f832",
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86"
+        }
+    ],
+    "CustomAttributeValues": [],
+    "CheckoutBillingClients": [
+        {
+            "_id": "8df3dc44-2573-4ff4-b4e3-d3ce85ed20b6",
+            "name": "Maria Izabel Lopez Zanches Lopez Zanches",
+            "taxName": null,
+            "taxActivity": null,
+            "taxId": "30078887",
+            "documentType": "CC",
+            "legalRepresentative": null,
+            "legalRepresentativeTaxId": null,
+            "email": null,
+            "phoneNumber": null,
+            "type": "person",
+            "status": "created",
+            "sensitiveDataEncryptVersion": null,
+            "sensitiveDataStatus": "visible",
+            "createdAt": "2023-12-09T15:47:34.000Z",
+            "updatedAt": "2023-12-09T15:47:34.000Z",
+            "BillingAddressId": "9be62b56-69c2-44dd-8b4f-8bd9f1f9449c",
+            "CheckoutId": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86"
+        }
+    ],
+    "CheckoutLinks": [
+        {
+            "_id": "19eb5ca6-9a9d-4e22-a3e6-9e3950e7c591",
+            "externalId": "2000007092011470",
+            "externalOrderNumber": "2000007092011470",
+            "externalCustomerOrderNumber": "2000007092011470",
+            "externalContent": {
+                "id": 2000007092011470,
+                "date_created": "2023-12-08T09:31:48.000-04:00",
+                "last_updated": "2024-10-18T02:24:09.000-04:00",
+                "expiration_date": "2023-12-30T11:47:29.000-04:00",
+                "date_closed": "2023-12-09T11:47:29.000-04:00",
+                "comment": null,
+                "pack_id": null,
+                "purchase_id": null,
+                "pickup_id": null,
+                "fulfilled": true,
+                "hidden_for_seller": null,
+                "buying_mode": "buy_equals_pay",
+                "shipping_cost": null,
+                "application_id": null,
+                "mediations": [],
+                "total_amount": 149990,
+                "paid_amount": 149990,
+                "coupon": {
+                    "amount": 0,
+                    "id": null
+                },
+                "order_items": [
+                    {
+                        "item": {
+                            "id": "MCO1164871724",
+                            "title": "Guayos Tpu Pro Golty Origen-rojo/azul",
+                            "category_id": "MCO7403",
+                            "variation_id": 176238880787,
+                            "seller_custom_field": "ORIGENTPU-RO_7M",
+                            "variation_attributes": [
+                                {
+                                    "name": "Color",
+                                    "id": "COLOR",
+                                    "value_id": "51993",
+                                    "value_name": "Rojo"
+                                },
+                                {
+                                    "name": "Talla",
+                                    "id": "SIZE",
+                                    "value_id": "4834442",
+                                    "value_name": "7.5"
+                                }
+                            ],
+                            "warranty": null,
+                            "condition": "new",
+                            "seller_sku": "ORIGENTPU-RO_7M",
+                            "global_price": null,
+                            "net_weight": null,
+                            "user_product_id": null,
+                            "release_date": null
+                        },
+                        "quantity": 1,
+                        "requested_quantity": {
+                            "measure": "unit",
+                            "value": 1
+                        },
+                        "picked_quantity": null,
+                        "unit_price": 149990,
+                        "full_unit_price": 149990,
+                        "currency_id": "COP",
+                        "manufacturing_days": null,
+                        "sale_fee": 25498,
+                        "listing_type_id": "gold_special",
+                        "base_exchange_rate": null,
+                        "base_currency_id": null,
+                        "element_id": null,
+                        "discounts": null,
+                        "bundle": null,
+                        "compat_id": null,
+                        "stock": null
+                    }
+                ],
+                "currency_id": "COP",
+                "payments": [
+                    {
+                        "id": 68195079243,
+                        "order_id": 2000007092011470,
+                        "payer_id": 1583865168,
+                        "collector": {
+                            "id": 331514051
+                        },
+                        "card_id": null,
+                        "reason": "Guayos Tpu Pro Golty Origen-rojo/azul",
+                        "site_id": "MCO",
+                        "payment_method_id": "efecty",
+                        "currency_id": "COP",
+                        "installments": 1,
+                        "issuer_id": "2011",
+                        "atm_transfer_reference": {
+                            "transaction_id": "10310472967",
+                            "company_id": ""
+                        },
+                        "coupon_id": null,
+                        "activation_uri": "https://www.mercadolibre.com.co/payments/68195079243/ticket?caller_id=1583865168&payment_method_id=efecty&payment_id=68195079243&payment_method_reference_id=10310472967&hash=b9b105cd-c7ac-45bc-8c93-f77720d11d40",
+                        "operation_type": "regular_payment",
+                        "payment_type": "ticket",
+                        "available_actions": [
+                            "refund"
+                        ],
+                        "status": "approved",
+                        "status_code": null,
+                        "status_detail": "accredited",
+                        "transaction_amount": 149990,
+                        "transaction_amount_refunded": 0,
+                        "taxes_amount": 0,
+                        "shipping_cost": 0,
+                        "coupon_amount": 0,
+                        "overpaid_amount": 0,
+                        "total_paid_amount": 149990,
+                        "installment_amount": null,
+                        "deferred_period": null,
+                        "date_approved": "2023-12-09T11:46:27.000-04:00",
+                        "transaction_order_id": null,
+                        "date_created": "2023-12-08T09:31:49.000-04:00",
+                        "date_last_modified": "2023-12-16T10:45:35.000-04:00",
+                        "marketplace_fee": 25498,
+                        "reference_id": null,
+                        "authorization_code": null
+                    }
+                ],
+                "shipping": {
+                    "substatus_history": [
+                        {
+                            "date": "2023-12-09T11:47:34.264-04:00",
+                            "substatus": "ready_to_print",
+                            "status": "ready_to_ship"
+                        },
+                        {
+                            "date": "2023-12-11T15:42:47.000-04:00",
+                            "substatus": "picked_up",
+                            "status": "ready_to_ship"
+                        },
+                        {
+                            "date": "2023-12-11T19:01:45.000-04:00",
+                            "substatus": "in_hub",
+                            "status": "ready_to_ship"
+                        },
+                        {
+                            "date": "2023-12-11T20:05:37.000-04:00",
+                            "substatus": "in_packing_list",
+                            "status": "ready_to_ship"
+                        }
+                    ],
+                    "snapshot_packing": {
+                        "snapshot_id": "611057a1-ae70-4928-8141-eea3757982d1",
+                        "pack_hash": "1"
+                    },
+                    "receiver_id": 1583865168,
+                    "base_cost": 15300,
+                    "status_history": {
+                        "date_shipped": "2023-12-11T22:24:20.000-04:00",
+                        "date_returned": null,
+                        "date_delivered": "2023-12-14T11:47:25.000-04:00",
+                        "date_first_visit": "2023-12-14T11:47:25.000-04:00",
+                        "date_not_delivered": null,
+                        "date_cancelled": null,
+                        "date_handling": "2023-12-09T11:47:32.000-04:00",
+                        "date_ready_to_ship": "2023-12-09T11:47:34.264-04:00"
+                    },
+                    "type": "forward",
+                    "return_details": null,
+                    "sender_id": 331514051,
+                    "mode": "me2",
+                    "order_cost": 149990,
+                    "priority_class": {
+                        "id": null
+                    },
+                    "service_id": 218897,
+                    "shipping_items": [
+                        {
+                            "domain_id": null,
+                            "quantity": 1,
+                            "dimensions_source": {
+                                "origin": "similarity",
+                                "id": "MCO1164871724__1"
+                            },
+                            "description": "Guayos Tpu Pro Golty Origen-rojo/azul",
+                            "packaging_boxes_number": null,
+                            "id": "MCO1164871724",
+                            "user_product_id": null,
+                            "sender_id": 331514051,
+                            "dimensions": "11.0x20.0x31.0,915.0"
+                        }
+                    ],
+                    "tracking_number": "MEL42884128993LMXDF01",
+                    "cost_components": {
+                        "loyal_discount": 0,
+                        "special_discount": 0,
+                        "compensation": 0,
+                        "gap_discount": 0,
+                        "ratio": 21800
+                    },
+                    "id": 42884128993,
+                    "tracking_method": "MEL Distribution",
+                    "last_updated": "2023-12-14T11:47:26.984-04:00",
+                    "items_types": [
+                        "new"
+                    ],
+                    "comments": null,
+                    "substatus": null,
+                    "date_created": "2023-12-08T09:31:48.720-04:00",
+                    "date_first_printed": "2023-12-11T13:13:57.687-04:00",
+                    "created_by": "receiver",
+                    "application_id": null,
+                    "shipping_option": {
+                        "processing_time": null,
+                        "cost": 0,
+                        "estimated_schedule_limit": {
+                            "date": null
+                        },
+                        "shipping_method_id": 508445,
+                        "estimated_delivery_final": {
+                            "date": "2023-12-13T00:00:00.000-05:00",
+                            "offset": 600
+                        },
+                        "buffering": {
+                            "date": null
+                        },
+                        "pickup_promise": {
+                            "from": null,
+                            "to": null
+                        },
+                        "list_cost": 6500,
+                        "estimated_delivery_limit": {
+                            "date": "2023-12-13T00:00:00.000-05:00",
+                            "offset": 72
+                        },
+                        "priority_class": {
+                            "id": null
+                        },
+                        "delivery_promise": "estimated",
+                        "delivery_type": "estimated",
+                        "estimated_handling_limit": {
+                            "date": "2023-12-11T00:00:00.000-05:00"
+                        },
+                        "estimated_delivery_time": {
+                            "date": "2023-12-13T00:00:00.000-05:00",
+                            "pay_before": "2023-12-10T00:00:00.000-05:00",
+                            "schedule": null,
+                            "unit": "hour",
+                            "offset": {
+                                "date": "2023-12-18T00:00:00.000-05:00",
+                                "shipping": 72
+                            },
+                            "shipping": 48,
+                            "time_frame": {
+                                "from": null,
+                                "to": null
+                            },
+                            "handling": 0,
+                            "type": "known_frame"
+                        },
+                        "name": "Normal a domicilio",
+                        "id": 1356424703,
+                        "estimated_delivery_extended": {
+                            "date": "2023-12-13T00:00:00.000-05:00",
+                            "offset": 72
+                        },
+                        "currency_id": "COP"
+                    },
+                    "tags": [],
+                    "sender_address": {
+                        "country": {
+                            "id": "CO",
+                            "name": "Colombia"
+                        },
+                        "address_line": "XXXXXXX",
+                        "types": [
+                            "billing",
+                            "default_return_address",
+                            "default_selling_address",
+                            "flex_pickup",
+                            "shipping"
+                        ],
+                        "scoring": null,
+                        "agency": null,
+                        "city": {
+                            "id": "TUNPQ0NPVGFiYzZm",
+                            "name": "Cota"
+                        },
+                        "geolocation_type": "ROOFTOP",
+                        "latitude": 0,
+                        "municipality": {
+                            "id": null,
+                            "name": null
+                        },
+                        "location_id": null,
+                        "street_name": "XXXXXXX",
+                        "zip_code": "XXXXXXX",
+                        "geolocation_source": "map-verified",
+                        "node": null,
+                        "intersection": "XXXXXXX",
+                        "street_number": "XXXXXXX",
+                        "comment": "XXXXXXX",
+                        "id": 1155882540,
+                        "state": {
+                            "id": "CO-CUN",
+                            "name": "Cundinamarca"
+                        },
+                        "neighborhood": {
+                            "id": null,
+                            "name": "Vereda Parcelas"
+                        },
+                        "geolocation_last_updated": "2023-09-14T18:42:08.491Z",
+                        "longitude": 0
+                    },
+                    "sibling": {
+                        "reason": null,
+                        "sibling_id": null,
+                        "description": null,
+                        "source": null,
+                        "date_created": null,
+                        "last_updated": null
+                    },
+                    "return_tracking_number": null,
+                    "site_id": "MCO",
+                    "carrier_info": null,
+                    "market_place": "MELI",
+                    "receiver_address": {
+                        "country": {
+                            "id": "CO",
+                            "name": "Colombia"
+                        },
+                        "city": {
+                            "id": "TUNPQ01VVGJlODAw",
+                            "name": "Mutatá"
+                        },
+                        "geolocation_type": "ROOFTOP",
+                        "latitude": 7.242003,
+                        "municipality": {
+                            "id": null,
+                            "name": null
+                        },
+                        "location_id": null,
+                        "street_name": "Calle calle 8",
+                        "zip_code": "057420",
+                        "intersection": "11",
+                        "receiver_name": "maría izabel Lopez zanches",
+                        "id": 1344195026,
+                        "state": {
+                            "id": "CO-ANT",
+                            "name": "Antioquia"
+                        },
+                        "longitude": -76.436684,
+                        "address_line": "Calle calle 8 #11-24",
+                        "types": [
+                            "default_buying_address"
+                        ],
+                        "scoring": null,
+                        "agency": null,
+                        "geolocation_source": "map-verified",
+                        "delivery_preference": "residential",
+                        "node": null,
+                        "street_number": "#11-24",
+                        "comment": "Referencia: segundo piso color rojo y almacén abajo",
+                        "neighborhood": {
+                            "id": null,
+                            "name": "la paz"
+                        },
+                        "geolocation_last_updated": "2023-12-08T02:40:13.558Z",
+                        "receiver_phone": "XXXXXXX"
+                    },
+                    "customer_id": null,
+                    "order_id": 2000007092011470,
+                    "quotation": null,
+                    "status": "delivered",
+                    "logistic_type": "cross_docking",
+                    "cost": 0
+                },
+                "status": "paid",
+                "status_detail": null,
+                "tags": [
+                    "paid",
+                    "delivered"
+                ],
+                "internal_tags": [],
+                "feedback": {
+                    "seller": null,
+                    "buyer": null
+                },
+                "context": {
+                    "channel": "marketplace",
+                    "site": "MCO",
+                    "flows": [],
+                    "application": null,
+                    "product_id": null,
+                    "store_id": null
+                },
+                "seller": {
+                    "id": 331514051,
+                    "user_type": null,
+                    "tags": [],
+                    "internal_tags": [],
+                    "status": null,
+                    "buy_restrictions": []
+                },
+                "buyer": {
+                    "id": 1583865168,
+                    "nickname": "LOPEZIZABEL20231207220158",
+                    "first_name": "Izabel",
+                    "last_name": "Lopez sanches",
+                    "user_type": null,
+                    "tags": [],
+                    "internal_tags": [],
+                    "status": null,
+                    "buy_restrictions": []
+                },
+                "taxes": {
+                    "amount": null,
+                    "currency_id": null,
+                    "id": null
+                },
+                "cancel_detail": null,
+                "manufacturing_ending_date": null,
+                "order_request": {
+                    "change": null,
+                    "return": null
+                },
+                "total_amount_with_shipping": 149990,
+                "remote_order_extra_billing_information": {
+                    "billing_info": {
+                        "additional_info": [
+                            {
+                                "type": "SITE_ID",
+                                "value": "MCO"
+                            },
+                            {
+                                "type": "FIRST_NAME",
+                                "value": "Maria Izabel Lopez Zanches"
+                            },
+                            {
+                                "type": "LAST_NAME",
+                                "value": "Lopez Zanches"
+                            },
+                            {
+                                "type": "DOC_TYPE",
+                                "value": "CC"
+                            },
+                            {
+                                "type": "DOC_NUMBER",
+                                "value": "30078887"
+                            },
+                            {
+                                "type": "COUNTRY_ID",
+                                "value": "CO"
+                            }
+                        ],
+                        "doc_number": "30078887",
+                        "doc_type": "CC"
+                    }
+                },
+                "shipmentPayments": []
+            },
+            "tags": "paid,delivered",
+            "synchronizationStatus": "synchronized",
+            "status": "created",
+            "externalCreatedAt": "2023-12-08T13:31:48.000Z",
+            "externalUpdatedAt": "2024-10-18T06:24:09.000Z",
+            "createdAt": "2023-12-09T15:47:32.000Z",
+            "updatedAt": "2024-10-18T07:44:06.000Z",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "MarketplaceConnectionId": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+            "CheckoutId": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+            "MarketplaceConnection": {
+                "_name": "Mercado Libre - Páginas Oficiales",
+                "_id": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+                "provider": "mercadolibre",
+                "name": "Mercado Libre - Páginas Oficiales"
+            }
+        }
+    ],
+    "PickUpOrders": [],
+    "DeliveryOrderInCheckouts": [
+        {
+            "_id": "b5068f31-cb40-4f8e-b8d3-79048b3c5012",
+            "status": "created",
+            "inventoryStatus": "_fulfilled_inventory",
+            "createdAt": "2023-12-09T15:47:33.000Z",
+            "updatedAt": "2023-12-09T15:47:33.000Z",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "DeliveryOrderId": "ae0e3a92-1e2d-44a3-812e-7968c6d72efa",
+            "CheckoutId": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+            "DeliveryOrder": {
+                "_id": "ae0e3a92-1e2d-44a3-812e-7968c6d72efa",
+                "code": "6312246694740",
+                "cost": 0,
+                "isDeliveryPaid": "not-paid",
+                "tags": null,
+                "estimatedDeliveryDateFrom": "2023-12-13T05:00:00.000Z",
+                "estimatedDeliveryDateTo": "2023-12-18T05:00:00.000Z",
+                "effectiveDeliveryClosingDate": "2023-12-14T15:47:26.000Z",
+                "promisedDeliveryDate": "2023-12-13T05:00:00.000Z",
+                "handlingDateLimit": "2023-12-13T05:00:00.000Z",
+                "pickUpDeliveryDateTo": null,
+                "pickUpDeliveryDateFrom": null,
+                "comment": null,
+                "deliveryClosingComment": null,
+                "status": "created",
+                "inventoryStatus": "_fulfilled_inventory",
+                "shippingLabelStatus": "ready",
+                "shippingLabelPrintStatus": "printed",
+                "deliveryStatus": "completed",
+                "deliveryAddress": null,
+                "trackingNumber": "MEL42884128993LMXDF01",
+                "trackingUrl": null,
+                "courierName": "MEL Distribution",
+                "shippingMode": "cross_docking",
+                "createdAt": "2023-12-09T15:47:33.000Z",
+                "updatedAt": "2024-10-18T06:44:05.000Z",
+                "CreatedById": null,
+                "UpdatedById": null,
+                "AssignedToId": null,
+                "OwnerId": null,
+                "CurrencyId": "0060ca8d-d4d0-4d86-b555-fb22b5bf5cdc",
+                "ShippingAddressId": "9bf275fc-2bf7-4f29-a0d9-28e6b28b238b",
+                "DeliveryTypeId": "9474c2a8-6a0c-11e6-9651-70928b05753b",
+                "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                "WarehouseId": "5e552ebb-ed92-46b2-96c2-9440336f0a3c",
+                "CourierId": null,
+                "DeliveryOrderStatusId": "2a12aee4-2386-11e7-8642-2c56dc130c0d",
+                "MerchantCourierId": null,
+                "DeliveryOrderLinks": [
+                    {
+                        "_id": "1a700de4-b942-49f0-9830-1d85591d603a",
+                        "content": null,
+                        "externalId": "42884128993",
+                        "externalOrderNumber": "disabled",
+                        "externalContent": "{\"substatus_history\":[{\"date\":\"2023-12-09T11:47:34.264-04:00\",\"substatus\":\"ready_to_print\",\"status\":\"ready_to_ship\"},{\"date\":\"2023-12-11T15:42:47.000-04:00\",\"substatus\":\"picked_up\",\"status\":\"ready_to_ship\"},{\"date\":\"2023-12-11T19:01:45.000-04:00\",\"substatus\":\"in_hub\",\"status\":\"ready_to_ship\"},{\"date\":\"2023-12-11T20:05:37.000-04:00\",\"substatus\":\"in_packing_list\",\"status\":\"ready_to_ship\"}],\"snapshot_packing\":{\"snapshot_id\":\"611057a1-ae70-4928-8141-eea3757982d1\",\"pack_hash\":\"1\"},\"receiver_id\":1583865168,\"base_cost\":15300,\"status_history\":{\"date_shipped\":\"2023-12-11T22:24:20.000-04:00\",\"date_returned\":null,\"date_delivered\":\"2023-12-14T11:47:25.000-04:00\",\"date_first_visit\":\"2023-12-14T11:47:25.000-04:00\",\"date_not_delivered\":null,\"date_cancelled\":null,\"date_handling\":\"2023-12-09T11:47:32.000-04:00\",\"date_ready_to_ship\":\"2023-12-09T11:47:34.264-04:00\"},\"type\":\"forward\",\"return_details\":null,\"sender_id\":331514051,\"mode\":\"me2\",\"order_cost\":149990,\"priority_class\":{\"id\":null},\"service_id\":218897,\"shipping_items\":[{\"domain_id\":null,\"quantity\":1,\"dimensions_source\":{\"origin\":\"similarity\",\"id\":\"MCO1164871724__1\"},\"description\":\"Guayos Tpu Pro Golty Origen-rojo/azul\",\"packaging_boxes_number\":null,\"id\":\"MCO1164871724\",\"user_product_id\":null,\"sender_id\":331514051,\"dimensions\":\"11.0x20.0x31.0,915.0\"}],\"tracking_number\":\"MEL42884128993LMXDF01\",\"cost_components\":{\"loyal_discount\":0,\"special_discount\":0,\"compensation\":0,\"gap_discount\":0,\"ratio\":21800},\"id\":42884128993,\"tracking_method\":\"MEL Distribution\",\"last_updated\":\"2023-12-14T11:47:26.984-04:00\",\"items_types\":[\"new\"],\"comments\":null,\"substatus\":null,\"date_created\":\"2023-12-08T09:31:48.720-04:00\",\"date_first_printed\":\"2023-12-11T13:13:57.687-04:00\",\"created_by\":\"receiver\",\"application_id\":null,\"shipping_option\":{\"processing_time\":null,\"cost\":0,\"estimated_schedule_limit\":{\"date\":null},\"shipping_method_id\":508445,\"estimated_delivery_final\":{\"date\":\"2023-12-13T00:00:00.000-05:00\",\"offset\":600},\"buffering\":{\"date\":null},\"pickup_promise\":{\"from\":null,\"to\":null},\"list_cost\":6500,\"estimated_delivery_limit\":{\"date\":\"2023-12-13T00:00:00.000-05:00\",\"offset\":72},\"priority_class\":{\"id\":null},\"delivery_promise\":\"estimated\",\"delivery_type\":\"estimated\",\"estimated_handling_limit\":{\"date\":\"2023-12-11T00:00:00.000-05:00\"},\"estimated_delivery_time\":{\"date\":\"2023-12-13T00:00:00.000-05:00\",\"pay_before\":\"2023-12-10T00:00:00.000-05:00\",\"schedule\":null,\"unit\":\"hour\",\"offset\":{\"date\":\"2023-12-18T00:00:00.000-05:00\",\"shipping\":72},\"shipping\":48,\"time_frame\":{\"from\":null,\"to\":null},\"handling\":0,\"type\":\"known_frame\"},\"name\":\"Normal a domicilio\",\"id\":1356424703,\"estimated_delivery_extended\":{\"date\":\"2023-12-13T00:00:00.000-05:00\",\"offset\":72},\"currency_id\":\"COP\"},\"tags\":[],\"sender_address\":{\"country\":{\"id\":\"CO\",\"name\":\"Colombia\"},\"address_line\":\"XXXXXXX\",\"types\":[\"billing\",\"default_return_address\",\"default_selling_address\",\"flex_pickup\",\"shipping\"],\"scoring\":null,\"agency\":null,\"city\":{\"id\":\"TUNPQ0NPVGFiYzZm\",\"name\":\"Cota\"},\"geolocation_type\":\"ROOFTOP\",\"latitude\":0,\"municipality\":{\"id\":null,\"name\":null},\"location_id\":null,\"street_name\":\"XXXXXXX\",\"zip_code\":\"XXXXXXX\",\"geolocation_source\":\"map-verified\",\"node\":null,\"intersection\":\"XXXXXXX\",\"street_number\":\"XXXXXXX\",\"comment\":\"XXXXXXX\",\"id\":1155882540,\"state\":{\"id\":\"CO-CUN\",\"name\":\"Cundinamarca\"},\"neighborhood\":{\"id\":null,\"name\":\"Vereda Parcelas\"},\"geolocation_last_updated\":\"2023-09-14T18:42:08.491Z\",\"longitude\":0},\"sibling\":{\"reason\":null,\"sibling_id\":null,\"description\":null,\"source\":null,\"date_created\":null,\"last_updated\":null},\"return_tracking_number\":null,\"site_id\":\"MCO\",\"carrier_info\":null,\"market_place\":\"MELI\",\"receiver_address\":{\"country\":{\"id\":\"CO\",\"name\":\"Colombia\"},\"city\":{\"id\":\"TUNPQ01VVGJlODAw\",\"name\":\"Mutatá\"},\"geolocation_type\":\"ROOFTOP\",\"latitude\":7.242003,\"municipality\":{\"id\":null,\"name\":null},\"location_id\":null,\"street_name\":\"Calle calle 8\",\"zip_code\":\"057420\",\"intersection\":\"11\",\"receiver_name\":\"maría izabel Lopez zanches\",\"id\":1344195026,\"state\":{\"id\":\"CO-ANT\",\"name\":\"Antioquia\"},\"longitude\":-76.436684,\"address_line\":\"Calle calle 8 #11-24\",\"types\":[\"default_buying_address\"],\"scoring\":null,\"agency\":null,\"geolocation_source\":\"map-verified\",\"delivery_preference\":\"residential\",\"node\":null,\"street_number\":\"#11-24\",\"comment\":\"Referencia: segundo piso color rojo y almacén abajo\",\"neighborhood\":{\"id\":null,\"name\":\"la paz\"},\"geolocation_last_updated\":\"2023-12-08T02:40:13.558Z\",\"receiver_phone\":\"XXXXXXX\"},\"customer_id\":null,\"order_id\":2000007092011470,\"quotation\":null,\"status\":\"delivered\",\"logistic_type\":\"cross_docking\",\"cost\":0}",
+                        "externalTrackingId": null,
+                        "externalTrackingContent": null,
+                        "status": "created",
+                        "synchronizationStatus": "not-synchronized",
+                        "externalCreatedAt": "2023-12-08T13:31:48.000Z",
+                        "externalUpdatedAt": "2023-12-09T15:47:31.000Z",
+                        "createdAt": "2023-12-09T15:47:33.000Z",
+                        "updatedAt": "2024-10-18T07:44:06.000Z",
+                        "CreatedById": null,
+                        "UpdatedById": null,
+                        "MarketplaceConnectionId": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+                        "CourierConnectionId": null,
+                        "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                        "DeliveryOrderId": "ae0e3a92-1e2d-44a3-812e-7968c6d72efa"
+                    }
+                ],
+                "ShippingAddress": {
+                    "_id": "9bf275fc-2bf7-4f29-a0d9-28e6b28b238b",
+                    "name": null,
+                    "address_1": null,
+                    "address_2": null,
+                    "description": null,
+                    "indications": "Referencia: segundo piso color rojo y almacén abajo",
+                    "receiverName": null,
+                    "zipCode": "057420",
+                    "city": "Mutatá",
+                    "state": "Antioquia",
+                    "country": "Colombia",
+                    "street": "Calle calle 8",
+                    "number": "#11-24",
+                    "neighborhood": "la paz",
+                    "position": 0,
+                    "status": "created",
+                    "sensitiveDataEncryptVersion": null,
+                    "sensitiveDataStatus": "visible",
+                    "importance": "principal",
+                    "createdAt": "2023-12-09T15:47:33.000Z",
+                    "updatedAt": "2024-10-18T07:44:06.000Z",
+                    "CreatedById": null,
+                    "UpdatedById": null,
+                    "ClientId": "90ee66d7-c182-4a1b-a165-c4dfe036f832",
+                    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                    "ShippingAddressReceivers": [
+                        {
+                            "fullName": "maría izabel Lopez zanches",
+                            "_id": "6846fabb-302f-445a-a8d9-122be61ecf66",
+                            "documentType": null,
+                            "taxId": null,
+                            "name": "maría izabel Lopez zanches",
+                            "lastName": null,
+                            "contactName": "maría izabel Lopez zanches",
+                            "code": null,
+                            "email": null,
+                            "phoneNumber": "XXXXXXX",
+                            "status": "created",
+                            "sensitiveDataEncryptVersion": null,
+                            "sensitiveDataStatus": "visible",
+                            "createdAt": "2023-12-09T15:47:33.000Z",
+                            "updatedAt": "2024-10-18T07:44:06.000Z",
+                            "CreatedById": null,
+                            "UpdatedById": null,
+                            "ShippingAddressId": "9bf275fc-2bf7-4f29-a0d9-28e6b28b238b",
+                            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86"
+                        }
+                    ]
+                }
+            },
+            "DeliveryOrderInCheckoutItems": [
+                {
+                    "_id": "38cd0294-dcc6-4550-b0a6-c2bb4ef15039",
+                    "code": "6941590654041",
+                    "unfulfilledAmount": 0,
+                    "stockAmount": 1,
+                    "inventoryStatus": "_fulfilled_inventory",
+                    "status": "created",
+                    "createdAt": "2023-12-09T15:47:33.000Z",
+                    "updatedAt": "2023-12-09T15:47:33.000Z",
+                    "CheckoutItemId": "b1bec2f1-ae2b-4034-8a43-6812757ae91c",
+                    "ProductVersionId": "c6c9f173-e06b-46be-a344-e71b2cf0195a",
+                    "DeliveryOrderInCheckoutId": "b5068f31-cb40-4f8e-b8d3-79048b3c5012",
+                    "CreatedById": null,
+                    "UpdatedById": null,
+                    "FulfilledWarehouseId": "5e552ebb-ed92-46b2-96c2-9440336f0a3c",
+                    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                    "ProductVersion": {
+                        "_id": "c6c9f173-e06b-46be-a344-e71b2cf0195a",
+                        "code": "ORIGENTPU-RO_7M",
+                        "internalCode": "",
+                        "providerCode": null,
+                        "position": 17,
+                        "width": 25,
+                        "length": 25,
+                        "height": 25,
+                        "weight": 1,
+                        "status": "created",
+                        "createdAt": "2022-12-28T18:11:06.000Z",
+                        "updatedAt": "2024-10-17T00:13:40.000Z",
+                        "CodeTypeId": null,
+                        "InternalCodeTypeId": null,
+                        "ColorId": "89ec1f51-9078-4b49-a73d-edaa7b2d654b",
+                        "SizeId": "b97db2bf-a4b3-49ba-97c7-ec5796b625ea",
+                        "CreatedById": "1df90187-ba60-4385-a0f0-1f6ef5375d10",
+                        "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                        "InventoryTypeId": "791a6654-c5f2-11e6-aad6-2c56dc130c0d",
+                        "ProductId": "7c2ad152-7318-4740-be83-d3cdbf51c516",
+                        "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                        "Product": {
+                            "_id": "7c2ad152-7318-4740-be83-d3cdbf51c516",
+                            "name": "Guayos Tpu Pro Golty Origen-Rojo/Azul",
+                            "alias": "",
+                            "model": "ORIGENTPU-RO",
+                            "code": "ORIGENTPU-RO",
+                            "internalCode": "",
+                            "providerCode": null,
+                            "synchronizationStatus": "PRODUCT_LOG_ENTRY_CODE.SUCCESS_on_distribution_to_marketplace",
+                            "status": "created",
+                            "createdAt": "2022-12-28T18:11:05.000Z",
+                            "updatedAt": "2024-10-17T00:13:39.000Z",
+                            "CodeTypeId": null,
+                            "InternalCodeTypeId": null,
+                            "CreatedById": "1df90187-ba60-4385-a0f0-1f6ef5375d10",
+                            "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                            "ProductCategoryId": "c1ed7c3c-7d18-4479-8bc0-ec36bf960afa",
+                            "BrandId": "813d15c8-2159-4007-8693-8300341e177f",
+                            "BrandTaxonomyItemId": null,
+                            "SeasonId": null,
+                            "WarrantyId": "7f113fad-36ae-44fd-a51d-ffbbf1c09409",
+                            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                            "ShippingClassId": null,
+                            "OfficialStoreId": "2d681be6-3a9f-4d4a-a0fd-8c95b1478f94",
+                            "ProductTypeId": "0f381d1c-3408-11e7-8e63-2c56dc130c0d"
+                        }
+                    },
+                    "FulfilledWarehouse": {
+                        "_id": "5e552ebb-ed92-46b2-96c2-9440336f0a3c",
+                        "name": "Bodega Online",
+                        "code": null,
+                        "address": null,
+                        "description": null,
+                        "type": "warehouse",
+                        "phoneAreaCode": null,
+                        "phoneNumber": null,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "openHours": null,
+                        "tags": null,
+                        "position": 1,
+                        "status": "created",
+                        "createdAt": "2022-08-12T21:37:58.000Z",
+                        "updatedAt": "2024-07-01T19:41:43.000Z",
+                        "CreatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                        "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                        "LocationId": null,
+                        "TimezoneId": null,
+                        "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                        "SalesGroupId": null
+                    }
+                }
+            ]
+        }
+    ],
+    "CheckoutDiscounts": [],
+    "CheckoutPayments": [
+        {
+            "_id": "ea35d6f8-c5d3-40b6-a8d2-531a5fc0649d",
+            "code": "68195079243",
+            "amount": 149990,
+            "amountPaid": 149990,
+            "change": 0,
+            "paymentStatus": "completed",
+            "authorizationCode": null,
+            "detail": null,
+            "status": "created",
+            "verificationStatus": "verified",
+            "cardNumber": null,
+            "installments": 1,
+            "datePaid": null,
+            "dateVerificated": null,
+            "createdAt": "2023-12-09T15:47:32.000Z",
+            "updatedAt": "2023-12-09T15:47:32.000Z",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "CheckoutId": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+            "PaymentMethodId": "77716067-d9a1-11e6-8adf-2c56dc130c0d",
+            "PaymentGatewayId": null,
+            "CurrencyId": "0060ca8d-d4d0-4d86-b555-fb22b5bf5cdc",
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+            "PaymentMethod": {
+                "_id": "77716067-d9a1-11e6-8adf-2c56dc130c0d",
+                "tags": "{    \"requiresTransaction\": true }",
+                "code": "_payment_methods_other",
+                "name": "PAYMENT_METHODS.Other.Name",
+                "description": "PAYMENT_METHODS.Other.Description",
+                "position": 7,
+                "status": "created",
+                "createdAt": "2016-12-14T16:38:46.000Z",
+                "updatedAt": "2016-12-14T16:38:46.000Z",
+                "codeTranslated": "Otros"
+            },
+            "PaymentGateway": null,
+            "CheckoutPaymentLinks": [
+                {
+                    "_id": "168617be-104b-49e7-9156-ea7dd05fb626",
+                    "externalId": "68195079243",
+                    "transactionId": "68195079243",
+                    "externalContent": "{\"accounts_info\":null,\"acquirer_reconciliation\":[],\"additional_info\":{\"authentication_code\":null,\"available_balance\":null,\"ip_address\":\"181.138.153.2\",\"items\":[{\"category_id\":\"MCO7403\",\"description\":null,\"id\":\"MCO1164871724\",\"picture_url\":null,\"quantity\":\"1\",\"title\":\"Guayos Tpu Pro Golty Origen-rojo/azul\",\"unit_price\":\"149990\"}],\"nsu_processadora\":null},\"authorization_code\":null,\"barcode\":{\"content\":\"68195079243\",\"height\":75,\"type\":\"UCC/EAN 128\",\"width\":1},\"binary_mode\":false,\"brand_id\":null,\"build_version\":\"3.29.1\",\"call_for_authorize_id\":null,\"captured\":true,\"card\":{},\"charges_details\":[{\"accounts\":{\"from\":\"collector\",\"to\":\"me\"},\"amounts\":{\"original\":6500,\"refunded\":0},\"client_id\":6001919313095062,\"date_created\":\"2023-12-09T11:47:30.000-04:00\",\"id\":\"68195079243-001\",\"last_updated\":\"2023-12-09T11:47:30.000-04:00\",\"metadata\":{\"shipment_id\":42884128993},\"name\":\"shp_cross_docking\",\"refund_charges\":[],\"reserve_id\":null,\"type\":\"shipping\"},{\"accounts\":{\"from\":\"collector\",\"to\":\"ml\"},\"amounts\":{\"original\":25498,\"refunded\":0},\"client_id\":5084470480389975,\"date_created\":\"2023-12-09T11:47:33.000-04:00\",\"id\":\"68195079243-002\",\"last_updated\":\"2023-12-09T11:47:33.000-04:00\",\"metadata\":{},\"name\":\"meli_fee\",\"refund_charges\":[],\"reserve_id\":null,\"type\":\"fee\"}],\"collector_id\":331514051,\"corporation_id\":null,\"counter_currency\":null,\"coupon_amount\":0,\"currency_id\":\"COP\",\"date_approved\":\"2023-12-09T11:46:27.000-04:00\",\"date_created\":\"2023-12-08T09:31:49.000-04:00\",\"date_last_updated\":\"2023-12-16T10:45:35.000-04:00\",\"date_of_expiration\":\"2023-12-29T00:59:59.000-04:00\",\"deduction_schema\":null,\"description\":\"Guayos Tpu Pro Golty Origen-rojo/azul\",\"differential_pricing_id\":null,\"external_reference\":\"2000007092011470\",\"fee_details\":[{\"amount\":25498,\"fee_payer\":\"collector\",\"type\":\"application_fee\"}],\"financing_group\":null,\"id\":68195079243,\"installments\":1,\"integrator_id\":null,\"issuer_id\":\"2011\",\"live_mode\":true,\"marketplace_owner\":null,\"merchant_account_id\":null,\"merchant_number\":null,\"metadata\":{\"official_store_id\":1152},\"money_release_date\":\"2023-12-16T10:45:34.000-04:00\",\"money_release_schema\":null,\"money_release_status\":\"released\",\"net_amount\":149990,\"notification_url\":null,\"operation_type\":\"regular_payment\",\"order\":{\"id\":\"2000007092011470\",\"type\":\"mercadolibre\"},\"payer\":{\"email\":null,\"entity_type\":null,\"first_name\":null,\"id\":\"1583865168\",\"identification\":{},\"last_name\":null,\"operator_id\":null,\"phone\":{},\"type\":\"registered\"},\"payment_method\":{\"data\":{},\"forward_data\":{\"agreement_number\":\"\",\"ticket_number\":\"\"},\"id\":\"efecty\",\"issuer_id\":\"2011\",\"type\":\"ticket\"},\"payment_method_id\":\"efecty\",\"payment_type_id\":\"ticket\",\"platform_id\":null,\"point_of_interaction\":{\"business_info\":{\"sub_unit\":\"checkout_on\",\"unit\":\"marketplace\"},\"location\":{\"source\":\"shipment\",\"state_id\":\"CO-ANT\"},\"transaction_data\":{\"e2e_id\":null},\"type\":\"CHECKOUT\"},\"pos_id\":null,\"processing_mode\":\"aggregator\",\"refunds\":[],\"shipping_amount\":0,\"sponsor_id\":null,\"statement_descriptor\":null,\"status\":\"approved\",\"status_detail\":\"accredited\",\"store_id\":null,\"tags\":null,\"taxes\":[{\"type\":\"IVA\",\"value\":null}],\"taxes_amount\":0,\"transaction_amount\":149990,\"transaction_amount_refunded\":0,\"transaction_details\":{\"acquirer_reference\":\"\",\"barcode\":{\"content\":\"68195079243\",\"height\":75,\"type\":\"UCC/EAN 128\",\"width\":1},\"digitable_line\":null,\"external_resource_url\":\"https://www.mercadolibre.com.co/payments/68195079243/ticket?caller_id=1583865168&payment_method_id=efecty&payment_id=68195079243&payment_method_reference_id=10310472967&hash=b9b105cd-c7ac-45bc-8c93-f77720d11d40\",\"financial_institution\":\"\",\"installment_amount\":0,\"net_received_amount\":117992,\"overpaid_amount\":0,\"payable_deferral_period\":null,\"payment_method_reference_id\":\"10310472967\",\"total_paid_amount\":149990,\"verification_code\":\"10310472967\"}}",
+                    "synchronizationStatus": "not-synchronized",
+                    "status": "created",
+                    "sensitiveDataEncryptVersion": null,
+                    "sensitiveDataStatus": "visible",
+                    "createdAt": "2023-12-09T15:47:32.000Z",
+                    "updatedAt": "2024-10-18T07:44:06.000Z",
+                    "CreatedById": null,
+                    "UpdatedById": null,
+                    "MarketplaceConnectionId": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+                    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                    "CheckoutPaymentId": "ea35d6f8-c5d3-40b6-a8d2-531a5fc0649d"
+                }
+            ]
+        }
+    ],
+    "CheckoutItems": [
+        {
+            "_id": "b1bec2f1-ae2b-4034-8a43-6812757ae91c",
+            "code": "ORIGENTPU-RO_7M",
+            "net": 0,
+            "tax": 0,
+            "gross": 149990,
+            "count": 1,
+            "tags": "",
+            "status": "created",
+            "createdAt": "2023-12-09T15:47:32.000Z",
+            "updatedAt": "2023-12-09T15:47:32.000Z",
+            "CreatedById": null,
+            "UpdatedById": null,
+            "CheckoutId": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+            "ProductVersionId": "c6c9f173-e06b-46be-a344-e71b2cf0195a",
+            "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+            "CheckoutItemDiscounts": [],
+            "ProductVersion": {
+                "_id": "c6c9f173-e06b-46be-a344-e71b2cf0195a",
+                "code": "ORIGENTPU-RO_7M",
+                "internalCode": "",
+                "providerCode": null,
+                "position": 17,
+                "width": 25,
+                "length": 25,
+                "height": 25,
+                "weight": 1,
+                "status": "created",
+                "createdAt": "2022-12-28T18:11:06.000Z",
+                "updatedAt": "2024-10-17T00:13:40.000Z",
+                "CodeTypeId": null,
+                "InternalCodeTypeId": null,
+                "ColorId": "89ec1f51-9078-4b49-a73d-edaa7b2d654b",
+                "SizeId": "b97db2bf-a4b3-49ba-97c7-ec5796b625ea",
+                "CreatedById": "1df90187-ba60-4385-a0f0-1f6ef5375d10",
+                "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                "InventoryTypeId": "791a6654-c5f2-11e6-aad6-2c56dc130c0d",
+                "ProductId": "7c2ad152-7318-4740-be83-d3cdbf51c516",
+                "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                "Size": {
+                    "_id": "b97db2bf-a4b3-49ba-97c7-ec5796b625ea",
+                    "name": "7.5",
+                    "code": null,
+                    "position": 0,
+                    "tags": null,
+                    "status": "created",
+                    "createdAt": "2022-08-26T17:46:57.000Z",
+                    "updatedAt": "2022-08-26T17:46:57.000Z",
+                    "CreatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                    "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86"
+                },
+                "Color": {
+                    "_id": "89ec1f51-9078-4b49-a73d-edaa7b2d654b",
+                    "name": "Rojo",
+                    "code": null,
+                    "tags": null,
+                    "status": "created",
+                    "createdAt": "2022-08-12T21:37:58.000Z",
+                    "updatedAt": "2022-08-12T21:37:58.000Z",
+                    "CreatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                    "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86"
+                },
+                "Product": {
+                    "_id": "7c2ad152-7318-4740-be83-d3cdbf51c516",
+                    "name": "Guayos Tpu Pro Golty Origen-Rojo/Azul",
+                    "alias": "",
+                    "model": "ORIGENTPU-RO",
+                    "code": "ORIGENTPU-RO",
+                    "internalCode": "",
+                    "providerCode": null,
+                    "synchronizationStatus": "PRODUCT_LOG_ENTRY_CODE.SUCCESS_on_distribution_to_marketplace",
+                    "status": "created",
+                    "createdAt": "2022-12-28T18:11:05.000Z",
+                    "updatedAt": "2024-10-17T00:13:39.000Z",
+                    "CodeTypeId": null,
+                    "InternalCodeTypeId": null,
+                    "CreatedById": "1df90187-ba60-4385-a0f0-1f6ef5375d10",
+                    "UpdatedById": "4396856c-07b7-4bd3-9713-7dfd55ebf806",
+                    "ProductCategoryId": "c1ed7c3c-7d18-4479-8bc0-ec36bf960afa",
+                    "BrandId": "813d15c8-2159-4007-8693-8300341e177f",
+                    "BrandTaxonomyItemId": null,
+                    "SeasonId": null,
+                    "WarrantyId": "7f113fad-36ae-44fd-a51d-ffbbf1c09409",
+                    "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+                    "ShippingClassId": null,
+                    "OfficialStoreId": "2d681be6-3a9f-4d4a-a0fd-8c95b1478f94",
+                    "ProductTypeId": "0f381d1c-3408-11e7-8e63-2c56dc130c0d"
+                }
+            },
+            "total": 149990,
+            "discount": 0,
+            "totalWithDiscount": 149990,
+            "paymentByItem": 149990
+        }
+    ],
+    "cachedDate": "2024-10-18T07:44:17.000Z",
+    "total": 149990,
+    "discount": 0,
+    "totalWithDiscount": 149990,
+    "hasItemDicounts": false,
+    "hasDicounts": false,
+    "totalDiscounts": 0,
+    "totalPayment": 149990,
+    "createdAtLocale": "09/12/2023 15:47:32",
+    "CheckoutLink": {
+        "_id": "19eb5ca6-9a9d-4e22-a3e6-9e3950e7c591",
+        "externalId": "2000007092011470",
+        "externalOrderNumber": "2000007092011470",
+        "externalCustomerOrderNumber": "2000007092011470",
+        "externalContent": {
+            "id": 2000007092011470,
+            "date_created": "2023-12-08T09:31:48.000-04:00",
+            "last_updated": "2024-10-18T02:24:09.000-04:00",
+            "expiration_date": "2023-12-30T11:47:29.000-04:00",
+            "date_closed": "2023-12-09T11:47:29.000-04:00",
+            "comment": null,
+            "pack_id": null,
+            "purchase_id": null,
+            "pickup_id": null,
+            "fulfilled": true,
+            "hidden_for_seller": null,
+            "buying_mode": "buy_equals_pay",
+            "shipping_cost": null,
+            "application_id": null,
+            "mediations": [],
+            "total_amount": 149990,
+            "paid_amount": 149990,
+            "coupon": {
+                "amount": 0,
+                "id": null
+            },
+            "order_items": [
+                {
+                    "item": {
+                        "id": "MCO1164871724",
+                        "title": "Guayos Tpu Pro Golty Origen-rojo/azul",
+                        "category_id": "MCO7403",
+                        "variation_id": 176238880787,
+                        "seller_custom_field": "ORIGENTPU-RO_7M",
+                        "variation_attributes": [
+                            {
+                                "name": "Color",
+                                "id": "COLOR",
+                                "value_id": "51993",
+                                "value_name": "Rojo"
+                            },
+                            {
+                                "name": "Talla",
+                                "id": "SIZE",
+                                "value_id": "4834442",
+                                "value_name": "7.5"
+                            }
+                        ],
+                        "warranty": null,
+                        "condition": "new",
+                        "seller_sku": "ORIGENTPU-RO_7M",
+                        "global_price": null,
+                        "net_weight": null,
+                        "user_product_id": null,
+                        "release_date": null
+                    },
+                    "quantity": 1,
+                    "requested_quantity": {
+                        "measure": "unit",
+                        "value": 1
+                    },
+                    "picked_quantity": null,
+                    "unit_price": 149990,
+                    "full_unit_price": 149990,
+                    "currency_id": "COP",
+                    "manufacturing_days": null,
+                    "sale_fee": 25498,
+                    "listing_type_id": "gold_special",
+                    "base_exchange_rate": null,
+                    "base_currency_id": null,
+                    "element_id": null,
+                    "discounts": null,
+                    "bundle": null,
+                    "compat_id": null,
+                    "stock": null
+                }
+            ],
+            "currency_id": "COP",
+            "payments": [
+                {
+                    "id": 68195079243,
+                    "order_id": 2000007092011470,
+                    "payer_id": 1583865168,
+                    "collector": {
+                        "id": 331514051
+                    },
+                    "card_id": null,
+                    "reason": "Guayos Tpu Pro Golty Origen-rojo/azul",
+                    "site_id": "MCO",
+                    "payment_method_id": "efecty",
+                    "currency_id": "COP",
+                    "installments": 1,
+                    "issuer_id": "2011",
+                    "atm_transfer_reference": {
+                        "transaction_id": "10310472967",
+                        "company_id": ""
+                    },
+                    "coupon_id": null,
+                    "activation_uri": "https://www.mercadolibre.com.co/payments/68195079243/ticket?caller_id=1583865168&payment_method_id=efecty&payment_id=68195079243&payment_method_reference_id=10310472967&hash=b9b105cd-c7ac-45bc-8c93-f77720d11d40",
+                    "operation_type": "regular_payment",
+                    "payment_type": "ticket",
+                    "available_actions": [
+                        "refund"
+                    ],
+                    "status": "approved",
+                    "status_code": null,
+                    "status_detail": "accredited",
+                    "transaction_amount": 149990,
+                    "transaction_amount_refunded": 0,
+                    "taxes_amount": 0,
+                    "shipping_cost": 0,
+                    "coupon_amount": 0,
+                    "overpaid_amount": 0,
+                    "total_paid_amount": 149990,
+                    "installment_amount": null,
+                    "deferred_period": null,
+                    "date_approved": "2023-12-09T11:46:27.000-04:00",
+                    "transaction_order_id": null,
+                    "date_created": "2023-12-08T09:31:49.000-04:00",
+                    "date_last_modified": "2023-12-16T10:45:35.000-04:00",
+                    "marketplace_fee": 25498,
+                    "reference_id": null,
+                    "authorization_code": null
+                }
+            ],
+            "shipping": {
+                "substatus_history": [
+                    {
+                        "date": "2023-12-09T11:47:34.264-04:00",
+                        "substatus": "ready_to_print",
+                        "status": "ready_to_ship"
+                    },
+                    {
+                        "date": "2023-12-11T15:42:47.000-04:00",
+                        "substatus": "picked_up",
+                        "status": "ready_to_ship"
+                    },
+                    {
+                        "date": "2023-12-11T19:01:45.000-04:00",
+                        "substatus": "in_hub",
+                        "status": "ready_to_ship"
+                    },
+                    {
+                        "date": "2023-12-11T20:05:37.000-04:00",
+                        "substatus": "in_packing_list",
+                        "status": "ready_to_ship"
+                    }
+                ],
+                "snapshot_packing": {
+                    "snapshot_id": "611057a1-ae70-4928-8141-eea3757982d1",
+                    "pack_hash": "1"
+                },
+                "receiver_id": 1583865168,
+                "base_cost": 15300,
+                "status_history": {
+                    "date_shipped": "2023-12-11T22:24:20.000-04:00",
+                    "date_returned": null,
+                    "date_delivered": "2023-12-14T11:47:25.000-04:00",
+                    "date_first_visit": "2023-12-14T11:47:25.000-04:00",
+                    "date_not_delivered": null,
+                    "date_cancelled": null,
+                    "date_handling": "2023-12-09T11:47:32.000-04:00",
+                    "date_ready_to_ship": "2023-12-09T11:47:34.264-04:00"
+                },
+                "type": "forward",
+                "return_details": null,
+                "sender_id": 331514051,
+                "mode": "me2",
+                "order_cost": 149990,
+                "priority_class": {
+                    "id": null
+                },
+                "service_id": 218897,
+                "shipping_items": [
+                    {
+                        "domain_id": null,
+                        "quantity": 1,
+                        "dimensions_source": {
+                            "origin": "similarity",
+                            "id": "MCO1164871724__1"
+                        },
+                        "description": "Guayos Tpu Pro Golty Origen-rojo/azul",
+                        "packaging_boxes_number": null,
+                        "id": "MCO1164871724",
+                        "user_product_id": null,
+                        "sender_id": 331514051,
+                        "dimensions": "11.0x20.0x31.0,915.0"
+                    }
+                ],
+                "tracking_number": "MEL42884128993LMXDF01",
+                "cost_components": {
+                    "loyal_discount": 0,
+                    "special_discount": 0,
+                    "compensation": 0,
+                    "gap_discount": 0,
+                    "ratio": 21800
+                },
+                "id": 42884128993,
+                "tracking_method": "MEL Distribution",
+                "last_updated": "2023-12-14T11:47:26.984-04:00",
+                "items_types": [
+                    "new"
+                ],
+                "comments": null,
+                "substatus": null,
+                "date_created": "2023-12-08T09:31:48.720-04:00",
+                "date_first_printed": "2023-12-11T13:13:57.687-04:00",
+                "created_by": "receiver",
+                "application_id": null,
+                "shipping_option": {
+                    "processing_time": null,
+                    "cost": 0,
+                    "estimated_schedule_limit": {
+                        "date": null
+                    },
+                    "shipping_method_id": 508445,
+                    "estimated_delivery_final": {
+                        "date": "2023-12-13T00:00:00.000-05:00",
+                        "offset": 600
+                    },
+                    "buffering": {
+                        "date": null
+                    },
+                    "pickup_promise": {
+                        "from": null,
+                        "to": null
+                    },
+                    "list_cost": 6500,
+                    "estimated_delivery_limit": {
+                        "date": "2023-12-13T00:00:00.000-05:00",
+                        "offset": 72
+                    },
+                    "priority_class": {
+                        "id": null
+                    },
+                    "delivery_promise": "estimated",
+                    "delivery_type": "estimated",
+                    "estimated_handling_limit": {
+                        "date": "2023-12-11T00:00:00.000-05:00"
+                    },
+                    "estimated_delivery_time": {
+                        "date": "2023-12-13T00:00:00.000-05:00",
+                        "pay_before": "2023-12-10T00:00:00.000-05:00",
+                        "schedule": null,
+                        "unit": "hour",
+                        "offset": {
+                            "date": "2023-12-18T00:00:00.000-05:00",
+                            "shipping": 72
+                        },
+                        "shipping": 48,
+                        "time_frame": {
+                            "from": null,
+                            "to": null
+                        },
+                        "handling": 0,
+                        "type": "known_frame"
+                    },
+                    "name": "Normal a domicilio",
+                    "id": 1356424703,
+                    "estimated_delivery_extended": {
+                        "date": "2023-12-13T00:00:00.000-05:00",
+                        "offset": 72
+                    },
+                    "currency_id": "COP"
+                },
+                "tags": [],
+                "sender_address": {
+                    "country": {
+                        "id": "CO",
+                        "name": "Colombia"
+                    },
+                    "address_line": "XXXXXXX",
+                    "types": [
+                        "billing",
+                        "default_return_address",
+                        "default_selling_address",
+                        "flex_pickup",
+                        "shipping"
+                    ],
+                    "scoring": null,
+                    "agency": null,
+                    "city": {
+                        "id": "TUNPQ0NPVGFiYzZm",
+                        "name": "Cota"
+                    },
+                    "geolocation_type": "ROOFTOP",
+                    "latitude": 0,
+                    "municipality": {
+                        "id": null,
+                        "name": null
+                    },
+                    "location_id": null,
+                    "street_name": "XXXXXXX",
+                    "zip_code": "XXXXXXX",
+                    "geolocation_source": "map-verified",
+                    "node": null,
+                    "intersection": "XXXXXXX",
+                    "street_number": "XXXXXXX",
+                    "comment": "XXXXXXX",
+                    "id": 1155882540,
+                    "state": {
+                        "id": "CO-CUN",
+                        "name": "Cundinamarca"
+                    },
+                    "neighborhood": {
+                        "id": null,
+                        "name": "Vereda Parcelas"
+                    },
+                    "geolocation_last_updated": "2023-09-14T18:42:08.491Z",
+                    "longitude": 0
+                },
+                "sibling": {
+                    "reason": null,
+                    "sibling_id": null,
+                    "description": null,
+                    "source": null,
+                    "date_created": null,
+                    "last_updated": null
+                },
+                "return_tracking_number": null,
+                "site_id": "MCO",
+                "carrier_info": null,
+                "market_place": "MELI",
+                "receiver_address": {
+                    "country": {
+                        "id": "CO",
+                        "name": "Colombia"
+                    },
+                    "city": {
+                        "id": "TUNPQ01VVGJlODAw",
+                        "name": "Mutatá"
+                    },
+                    "geolocation_type": "ROOFTOP",
+                    "latitude": 7.242003,
+                    "municipality": {
+                        "id": null,
+                        "name": null
+                    },
+                    "location_id": null,
+                    "street_name": "Calle calle 8",
+                    "zip_code": "057420",
+                    "intersection": "11",
+                    "receiver_name": "maría izabel Lopez zanches",
+                    "id": 1344195026,
+                    "state": {
+                        "id": "CO-ANT",
+                        "name": "Antioquia"
+                    },
+                    "longitude": -76.436684,
+                    "address_line": "Calle calle 8 #11-24",
+                    "types": [
+                        "default_buying_address"
+                    ],
+                    "scoring": null,
+                    "agency": null,
+                    "geolocation_source": "map-verified",
+                    "delivery_preference": "residential",
+                    "node": null,
+                    "street_number": "#11-24",
+                    "comment": "Referencia: segundo piso color rojo y almacén abajo",
+                    "neighborhood": {
+                        "id": null,
+                        "name": "la paz"
+                    },
+                    "geolocation_last_updated": "2023-12-08T02:40:13.558Z",
+                    "receiver_phone": "XXXXXXX"
+                },
+                "customer_id": null,
+                "order_id": 2000007092011470,
+                "quotation": null,
+                "status": "delivered",
+                "logistic_type": "cross_docking",
+                "cost": 0
+            },
+            "status": "paid",
+            "status_detail": null,
+            "tags": [
+                "paid",
+                "delivered"
+            ],
+            "internal_tags": [],
+            "feedback": {
+                "seller": null,
+                "buyer": null
+            },
+            "context": {
+                "channel": "marketplace",
+                "site": "MCO",
+                "flows": [],
+                "application": null,
+                "product_id": null,
+                "store_id": null
+            },
+            "seller": {
+                "id": 331514051,
+                "user_type": null,
+                "tags": [],
+                "internal_tags": [],
+                "status": null,
+                "buy_restrictions": []
+            },
+            "buyer": {
+                "id": 1583865168,
+                "nickname": "LOPEZIZABEL20231207220158",
+                "first_name": "Izabel",
+                "last_name": "Lopez sanches",
+                "user_type": null,
+                "tags": [],
+                "internal_tags": [],
+                "status": null,
+                "buy_restrictions": []
+            },
+            "taxes": {
+                "amount": null,
+                "currency_id": null,
+                "id": null
+            },
+            "cancel_detail": null,
+            "manufacturing_ending_date": null,
+            "order_request": {
+                "change": null,
+                "return": null
+            },
+            "total_amount_with_shipping": 149990,
+            "remote_order_extra_billing_information": {
+                "billing_info": {
+                    "additional_info": [
+                        {
+                            "type": "SITE_ID",
+                            "value": "MCO"
+                        },
+                        {
+                            "type": "FIRST_NAME",
+                            "value": "Maria Izabel Lopez Zanches"
+                        },
+                        {
+                            "type": "LAST_NAME",
+                            "value": "Lopez Zanches"
+                        },
+                        {
+                            "type": "DOC_TYPE",
+                            "value": "CC"
+                        },
+                        {
+                            "type": "DOC_NUMBER",
+                            "value": "30078887"
+                        },
+                        {
+                            "type": "COUNTRY_ID",
+                            "value": "CO"
+                        }
+                    ],
+                    "doc_number": "30078887",
+                    "doc_type": "CC"
+                }
+            },
+            "shipmentPayments": []
+        },
+        "tags": "paid,delivered",
+        "synchronizationStatus": "synchronized",
+        "status": "created",
+        "externalCreatedAt": "2023-12-08T13:31:48.000Z",
+        "externalUpdatedAt": "2024-10-18T06:24:09.000Z",
+        "createdAt": "2023-12-09T15:47:32.000Z",
+        "updatedAt": "2024-10-18T07:44:06.000Z",
+        "CreatedById": null,
+        "UpdatedById": null,
+        "MarketplaceConnectionId": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+        "MerchantId": "beb7c975-d7c5-4ab6-ac24-524d88b38f86",
+        "CheckoutId": "9e8372bf-a6f3-4d75-ad2a-f440180cf6d9",
+        "MarketplaceConnection": {
+            "_name": "Mercado Libre - Páginas Oficiales",
+            "_id": "106d608a-e13f-4b0b-9c31-3771aec11c45",
+            "provider": "mercadolibre",
+            "name": "Mercado Libre - Páginas Oficiales"
+        }
+    },
+    "isRemoteCheckoutWithoutPayments": false
+}

@@ -5,5 +5,5 @@ RUN npm install
 RUN npm install pm2 -g
 COPY . .
 EXPOSE 3000
-#CMD ["npm","run","dev" ]
-CMD [ "pm2","start","App.js"]
+CMD ["pm2-runtime","start","npm","--","start" ]
+#CMD [ "pm2","start","App.js"]

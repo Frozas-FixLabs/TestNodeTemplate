@@ -1,0 +1,34 @@
+version: '2'
+services:
+
+  nodeapp:
+    container_name: nodeapp
+    build: 
+      context: .
+      dockerfile: Dockerfile  
+    ports:
+      - "3000:3000"  # Mapea el puerto 3000 de tu máquina al contenedor
+    environment:
+      - MONGO_URL=mongodb://mongo:27017  # Usa el nombre del servicio de MongoDB
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+  # Servicio para MongoDB
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - "27071:27017"  # Mapea el puerto 27017 de MongoDB al puerto 27071 de tu máquina
+    volumes:
+      - mongo-data:/data/db  # Persistencia de datos
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo-data:

@@ -9,7 +9,7 @@ class Server {
 
     //PATH
     this.paths={
-        TEMPLATE:"/template"
+        USER:"/api/user"
     }
 
     //middlewares
@@ -28,7 +28,7 @@ class Server {
   }
 
   routes() {
-    this.app.use(this.paths.TEMPLATE, require("../Routes/Template"));
+    this.app.use(this.paths.USER, require("../Routes/user"));
   }
 
   listen() {
