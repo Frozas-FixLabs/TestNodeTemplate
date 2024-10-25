@@ -2,24 +2,20 @@ const { SetConnectionMongoDB, CloseConnection } = require("../../Config/Connecti
 const mongoose = require('mongoose');
 
 
-const GetOneItem = async (database, collection, filter={}) => { 
+const getAllItems = async (database, collection) => { 
 
     try {
         await SetConnectionMongoDB(database);
         const coleccion = mongoose.connection.collection(collection); 
-    
-        const resultado = await coleccion.findOne(filter);
+        const resultado = await coleccion.find({}).toArray();
           return resultado;
       } catch (err) {
         console.error("Error al conectar a MongoDB:", err);
       } finally {
         await CloseConnection()
       }
-    // const db = SetConnectionMongoDB().db(database)
-    // const mongoOrders = await db.collection(collection).;
-    // return mongoOrders;
   }
 
 module.exports = {
-    GetOneItem
+    getAllItems
 }

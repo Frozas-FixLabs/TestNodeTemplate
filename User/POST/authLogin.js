@@ -42,9 +42,6 @@ const authLogin = async (req, res = response) => {
   }
 };
 
-
-
-
 module.exports = {
   authLogin
 };
