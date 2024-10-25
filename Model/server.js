@@ -9,7 +9,8 @@ class Server {
 
     //PATH
     this.paths={
-        USER:"/api/user"
+        USER:"/api/user",
+        CHECKOUT:"/api/checkout"
     }
 
     //middlewares
@@ -29,6 +30,7 @@ class Server {
 
   routes() {
     this.app.use(this.paths.USER, require("../Routes/user"));
+    this.app.use(this.paths.CHECKOUT, require("../Routes/checkout"));
   }
 
   listen() {
