@@ -4,6 +4,8 @@ const { GetOneItem } = require("../../Utility/Mongo/getOneItem");
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
+const db = process.env.DB_NAME;
+
 const createuser = async (req, res = response) => {
   try {
     const { name, lastName, email, password } = req.body
@@ -34,7 +36,7 @@ const createuser = async (req, res = response) => {
     const lowerCaseEmail = email.toLowerCase();
 
     //verificacion de correo ya registrado
-    const existingUser= await GetOneItem( "user", "usuarios", {email})
+    const existingUser= await GetOneItem( db, "user", {email})
     if (existingUser) { 
       return res.status(400).json({ message: "Este correo ya se encuentra registrado" });
     }
@@ -52,7 +54,7 @@ const createuser = async (req, res = response) => {
       rol: rol,
     }
 
-    const resultadoInsercion= await InsertarItem("user", "usuarios", newUser);
+    const resultadoInsercion= await InsertarItem(db, "user", newUser);
       const token = jwt.sign(
         { userId: newUser._id, email: newUser.email, rol: newUser.rol },
         process.env.JWT_SECRET,

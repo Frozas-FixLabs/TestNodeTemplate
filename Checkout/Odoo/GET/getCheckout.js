@@ -1,14 +1,14 @@
 const { getAllItems } = require("../../../Utility/Mongo/getAllItems");
+require("dotenv").config();
+const db = process.env.DB_NAME;
 
 
 const getCheckout = async (req, res) => {
-  const database = "Checkouts";
-  const collection = "checkout";
 
   
   try {
 
-    const checkouts = await getAllItems(database, collection);
+    const checkouts = await getAllItems(db, "checkout");
 
     if (checkouts && checkouts.length > 0) {
       const checkoutsData = checkouts.map(checkout => ({

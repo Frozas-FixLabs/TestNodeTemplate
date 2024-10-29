@@ -3,6 +3,8 @@ const { GetOneItem } = require("../../Utility/Mongo/getOneItem");
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
 
+const db = process.env.DB_NAME;
+
 const authLogin = async (req, res = response) => {
   try {
     const {email, password} = req.body
@@ -13,7 +15,7 @@ const authLogin = async (req, res = response) => {
   
     const lowerCaseEmail = email.toLowerCase();//correo a minusculas
 
-    const user= await GetOneItem("user", "usuarios", {email: lowerCaseEmail})
+    const user= await GetOneItem(db, "user", {email: lowerCaseEmail})
 
     if (!user){
       return res.status(400).json({message: "El usuario no existe"})
@@ -34,7 +36,6 @@ const authLogin = async (req, res = response) => {
       {expiresIn: "1h"}
     )
 
-    console.log("pozole", process.env.JWT_SECRET)
   
     return res.status(200).json({
       message: rol === "user" ? "Inicio de sesión exitoso de usuario user" : "Inicio de sesión exitoso del usuario admin", token })

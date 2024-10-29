@@ -1,8 +1,10 @@
 const { getAllItems } = require("../../Utility/Mongo/getAllItems")
 
+const db = process.env.DB_NAME;
+
 const getUsers = async (req, res)=> {
    try { 
-        const users = await getAllItems("Usuarios", "User")
+        const users = await getAllItems(db, "user")
         if (users && users.length > 0){
             const userInfos = users.map(user => ({
                 _id: user._id,
