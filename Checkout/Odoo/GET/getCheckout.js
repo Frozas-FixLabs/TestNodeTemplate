@@ -17,6 +17,7 @@ const getCheckout = async (req, res) => {
         order_name: checkout.order_name,
         created_at: checkout.created_at,
         client_id: checkout.client_id,
+        origin: checkout.origin,
         payment_method: checkout.payment_method,
         payment_status: checkout.payment_status,
         status: checkout.status,
