@@ -3,8 +3,6 @@ const { GetOneItem } = require("../../Utility/Mongo/getOneItem");
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
 
-// const { usuarios } = require("../../Model/Usuarios")
-
 const authLogin = async (req, res = response) => {
   try {
     const {email, password} = req.body
@@ -28,13 +26,18 @@ const authLogin = async (req, res = response) => {
       return res.status(400).json({ message: "Ingresa un email o contraseña correcta." });
     }
 
+    const rol= user.rol
+
     const token = jwt.sign(
-      {userId: user._id, email: user.email},
+      {userId: user._id, email: user.email, rol: user.rol},
       process.env.JWT_SECRET,
       {expiresIn: "1h"}
     )
 
-    return res.status(200).json({message: "inición de sesión exitoso", token})
+    console.log("pozole", process.env.JWT_SECRET)
+  
+    return res.status(200).json({
+      message: rol === "user" ? "Inicio de sesión exitoso de usuario user" : "Inicio de sesión exitoso del usuario admin", token })
     
   } catch (error) {
     console.error("Error en el proceso de inicio de sesión:", error);

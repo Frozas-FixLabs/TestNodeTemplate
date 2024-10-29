@@ -6,8 +6,8 @@ const jwt = require('jsonwebtoken');
 
 const createuser = async (req, res = response) => {
   try {
-    const {name, lastName, email, password} = req.body
-    
+    const { name, lastName, email, password } = req.body
+
     if(!name || !lastName || !email || !password){
       return res.status(400).json({message: "Todos los campos son requeridos"})
     }
@@ -21,7 +21,7 @@ const createuser = async (req, res = response) => {
 
     //verificacion de caracteres en nombre apellido y correo
     const nameRegex = /^[A-Za-zÀ-ÿ\s]+$/;
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.(com|org|net|cl|edu|gov|mil|biz|info|name|pro|aero|coop|museum)(\.[a-z]{2})?$/;
 
     if (!nameRegex.test(lastName)){
       return res.status(400).json({message: "El apellido solo puede contener letras"})
@@ -34,10 +34,12 @@ const createuser = async (req, res = response) => {
     const lowerCaseEmail = email.toLowerCase();
 
     //verificacion de correo ya registrado
-    const existingUser= GetOneItem( "user", "usuarios", {email})
-    if (existingUser.email){
-      return res.status(400).json({message: "Este correo ya se encuentra registrado"})
+    const existingUser= await GetOneItem( "user", "usuarios", {email})
+    if (existingUser) { 
+      return res.status(400).json({ message: "Este correo ya se encuentra registrado" });
     }
+
+    let rol = "user";
 
     //Logica para encriptar contraseña
     const hashedPassword = await bcrypt.hash(password, 10)
@@ -46,21 +48,27 @@ const createuser = async (req, res = response) => {
       name: initialCapitalName,
       lastName: initialCapitalLastName,
       email: lowerCaseEmail,
-      password: hashedPassword
+      password: hashedPassword,
+      rol: rol,
     }
 
-    const token = jwt.sign(
-      { userId: newUser._id, email: newUser.email },
-      process.env.JWT_SECRET,
-      { expiresIn: '1h' }
-    );
+    const resultadoInsercion= await InsertarItem("user", "usuarios", newUser);
+      const token = jwt.sign(
+        { userId: newUser._id, email: newUser.email, rol: newUser.rol },
+        process.env.JWT_SECRET,
+        { expiresIn: '1h' }
+      );
 
-    await InsertarItem("user", "usuarios", newUser);
-    return res.status(200).json({message: "usuario creado con exito", token})
+      if (!resultadoInsercion || !resultadoInsercion.insertedId) {
+        return res.status(400).json({ message: "No se pudo crear el usuario" });
+      }
+
+    return res.status(200).json({
+    message: "Usuario user creado exitosamente", token});
 
   } catch (error) {
-    console.log(error);
-    res.send("No se pudo crear el usuario").status(401);
+    console.error(error); 
+    return res.status(500).json({ message: "No se pudo crear el usuario" });
   }
 };
 

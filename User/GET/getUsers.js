@@ -8,7 +8,8 @@ const getUsers = async (req, res)=> {
                 _id: user._id,
                 name: user.name,
                 lastName: user.lastName,
-                email: user.email
+                email: user.email,
+                rol: user.rol
             }));
             res.status(200).json({message: "Usuarios encontrados", userInfos})
         }else{

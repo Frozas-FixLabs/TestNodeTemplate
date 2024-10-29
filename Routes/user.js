@@ -9,4 +9,5 @@ router.post("/createUser", createuser);
 router.post("/authLogin",authLogin)
 router.get("/getUsers",getUsers)
 
+
 module.exports = router;
