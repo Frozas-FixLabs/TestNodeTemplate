@@ -13,7 +13,7 @@ const createuser = async (req, res = response) => {
     if(!name || !lastName || !email || !password){
       return res.status(400).json({message: "Todos los campos son requeridos"})
     }
-
+    //contraseña por defecto
     //cambio a mayuscula primer letra del nombre y apellido
     function capitalChange(str){
       return str[0].toUpperCase() + str.substring(1).toLowerCase()
@@ -46,12 +46,18 @@ const createuser = async (req, res = response) => {
     //Logica para encriptar contraseña
     const hashedPassword = await bcrypt.hash(password, 10)
 
+    const time = Date.now();
+    const today = new Date(time);
+    const formattedDate = today.toISOString().slice(0, 19);
+
+
     const newUser= {
       name: initialCapitalName,
       lastName: initialCapitalLastName,
       email: lowerCaseEmail,
       password: hashedPassword,
       rol: rol,
+      createdAt: formattedDate,
     }
 
     const resultadoInsercion= await InsertarItem(db, "user", newUser);
